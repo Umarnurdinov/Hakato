@@ -1,0 +1,223 @@
+body {
+  width: 1440px;
+  height: 800px;
+  background: #95b9c9;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  background: #fff;
+}
+.header {
+  padding: 10px 5pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  object-fit: cover;
+}
+.header__nav {
+  display: flex;
+  gap: 64px;
+}
+.header__nav-menu {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__nav-order {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__nav-admin {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero__admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero__create-text {
+  color: #33332d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+.hero__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.photo {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  padding-left: 20px;
+  width: 529px;
+  height: 67px;
+  border: none;
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+.name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  padding-left: 20px;
+  width: 529px;
+  height: 67px;
+  border: none;
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+.price {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  padding-left: 20px;
+
+  width: 529px;
+  height: 67px;
+  border: none;
+  border-radius: 10px;
+  background: #d9d9d9;
+}
+.hero__button {
+  margin-top: 63px;
+}
+.create {
+  width: 254.1px;
+  height: 80px;
+  border-radius: 10px;
+  background: #ddaa27;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  border: none;
+}
+
+.hero__menu {
+  text-align: center;
+  h1 {
+    color: #33332d;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.2px;
+  }
+}
+.menu1 {
+  display: flex;
+  justify-content: center;
+  gap: 144px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.saveDiv {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+.saveDivName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.saveDivOrder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu1 img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.hero__ad {
+  display: block;
+}
+
+.hero__menu {
+  display: none;
+}
+
+.hero__orders {
+  display: none;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  background: #00000042;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+.btn:active {
+  box-shadow: 0 0 10px 2px white;
+}
+
+.ordDiv {
+  width: 800px;
+  height: 100px;
+  background-color: #00000033;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.ordImg {
+  width: 150px;
+  height: 100px;
+}
+
+.ordNameDiv {
+  display: flex;
+}
